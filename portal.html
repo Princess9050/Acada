@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/portal.css">
+</head>
+<body>
+    <!--HEAD  -->
+    <header class="head">
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap" id="icon"></i>
+        </div>
+        <h1>Aca <span class="span1">da</span></h1>
+        <nav>
+            <div class="div1">
+                <a href="./index.html" class="active">Home</a>
+            </div>
+            <div class="div2">
+                <a href="./portal.html">Choose portal</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECTION -->
+    <section>
+        <div class="section">
+        <p id="selected-school"></p>
+        <h2>Choose your <span class="span1"> portal</span></h2>
+
+        <div class="bg-circle circle1"></div>
+            <div class="bg-circle circle2"></div>
+            <div class="bg-circle circle3"></div>
+            <div class="bg-circle circle4"></div>
+            <div class="bg-circle circle5"></div>
+
+
+        <div id="portal-content">
+            <article class="cont">
+                <i class="fa-duotone fa-solid fa-user-graduate"></i>
+                <h3>Student Portal</h3>
+                <p>View your profile, results, attendance, and fee status.</p>
+                <a href="./student-login.html">
+                    <button id="student-login" class="btn">Student Login</button>
+                </a>
+            </article>
+
+            <article class="cont">
+                <i class="fa-solid fa-person-chalkboard"></i>
+                <h3>Staff Portal</h3>
+                <p>View your profile, classes and students.</p>
+                <a href="./staff-login.html">
+                    <button id="staff-login" class="btn">Staff Login</button>
+                </a>
+            </article>
+
+            <article class="cont">
+                <i class="fa-solid fa-hands-holding-child"></i>
+                <h3>Parent Portal</h3>
+                <p>View your wards performance, fees and payments.</p>
+                <a href="./parent-login.html">
+                    <button id="parent-login" class="btn">Parent Login</button>
+                </a>
+            </article>
+            <br><br>
+            <a href="./index.html">
+            <button class="btn2">Back</button>
+            </a>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; Acada School Management Software</p>
+    </footer>
+
+    <script src="./J.S/portal.js"></script>
+</body>
+</html>

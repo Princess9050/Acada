@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background: linear-gradient(135deg, #FFFFFF 0%, #F4F8FF 100%);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.head{
+    display: flex;
+    min-width: 100vw;
+    height: 90px;
+    /* border: 1px solid black; */
+    align-items: center;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px lightblue;
+}
+.logo{
+    width:40px;
+    height: 40px;
+    background-color: #2563EB;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+#icon{
+    font-size: 20px;
+    color: white;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+h1{
+    margin-left: 10px;
+}
+.span1{
+    color: #2563EB;
+    
+}
+nav{
+    margin-left: 60%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    z-index: 1;
+    font-size: 14px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.section{
+    /* width: 1230px; */
+    /* height: 450px; */
+    /* background-color: rgb(248, 253, 253); */
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 15px;
+    overflow-x: hidden;
+}
+.section p{
+    color: #2563EB;
+    font-size: 11px;
+    margin-top: 50px;
+}
+.section h2{
+    margin-top: 20px;
+    font-size: 65px;
+    letter-spacing: 1px;
+    font-weight: 600;  
+}
+.span2{
+    color: #2563EB;
+    position: relative;
+    top: -20px;
+}
+.section .p{
+    color: black;
+    font-size: 10px;
+     position: relative;
+    top: -60px;
+}
+.btn {
+    width: 165px;
+    height: 46px;
+         position: relative;
+    top: -30px;
+    background-color: white;
+    border: 2px solid #2563EB;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: -2px;
+}
+#icon2{
+    font-size: 25px;
+}
+#select-school{
+    margin-top: 30px;
+    
+}
+#school{
+    width: 150px;
+    height: 45px;
+    position: relative;
+    top: -125px;
+    border-radius: 10px;
+    border: 2px solid #2563EB;
+  
+    left: 14%;
+   
+}
+.btn2{
+    width: 100px;
+    height: 30px;
+    background-color: #2563EB;
+    border: 2px solid #2563EB;
+    color: white;
+    border-radius: 8px;
+    border: 10px;
+    position: relative;
+    top: -70px;
+    left: -12%;
+}
+.bg-circle{
+    position: absolute;
+    border-radius: 50%;
+    background: #e8f1ff;
+    opacity: 0.6;
+    animation: circleFloat 6s ease-in-out infinite;
+
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    top: 30px;
+    right: 80px;
+}
+.circle2{
+    width: 60px;
+    height: 60px;
+    top: 200px;
+    right: 250px;
+    animation-delay: 1s;
+}
+.circle3{
+    width: 140px;
+    height: 140px;
+    bottom: 50px;
+    right: 80px;
+    animation-delay: 2s;
+}
+.circle4{
+    width: 40px;
+    height: 40px;
+    top: 140px;
+    left: 50px;
+    animation-delay: 3s;
+}
+.circle5{
+    width: 150px;
+    height: 150px;
+    top: 400px;
+    left: 500px;
+    animation-delay: 3s;
+}
+@keyframes circleFloat {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(15px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.education-animation{
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    left: 70%;
+    bottom: 50px;
+}
+.cap{
+    position: absolute;
+    top: 90px;
+    font-size: 100px;
+
+}
+.floating-icon{
+    position: absolute;
+    font-size: 40px;
+    animation: float 3s ease-in-out infinite;
+}
+.icon1{
+    top: 30px;
+    left: 180px;
+    animation-delay: 0s;
+}
+.icon2{
+    top: 240px;
+    animation-delay: 0.7s;
+}
+.icon3{
+    top: 200px;
+    left: 170px;
+    animation-delay: 1.2s;
+}
+.icon4{
+    bottom: 170px;
+    left: -70px;
+    animation-delay: 1.8s;
+}
+.icon5{
+    /* bottom: 20px; */
+    animation-delay: 0.4s;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+footer p{
+    font-size: 12px;
+    color: #2563EB;
+    position: absolute;
+    left: 82%;
+    top: 95%;
+}

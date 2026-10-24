@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <!-- HEAD -->
+    <header class="head">
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap" id="icon"></i>
+        </div>
+        <h1>Aca <span class="span1">da</span></h1>
+        <nav>
+            <div class="div1">
+                <a href="./index.html" class="active">Home</a>
+            </div>
+            <div class="div2">
+                <a href="./portal.html">Choose portal</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!-- SECTION -->
+    <section>
+        <div class="section">
+            <p> SCHOOL MANAGEMENT SOFTWARE</p>
+            <h2>School life,<br><span class="span2"> made simpler.</span></h2>
+            <p class="p">A smart school management platform designed to connect students,<br> parents
+                and staff. Access the right portal, manage school activities<br> and keep important academic information organizied-all in one place.
+            </p>
+            <button class="btn">
+                <i class="fa-solid fa-school" id="icon2"></i>
+              <a href="">  Add a school</a>
+            </button>
+
+            <!-- CIRCLES -->
+            <div class="bg-circle circle1"></div>
+            <div class="bg-circle circle2"></div>
+            <div class="bg-circle circle3"></div>
+            <div class="bg-circle circle4"></div>
+            <div class="bg-circle circle5"></div>
+
+            <form id="select-school" action="./portal.html">
+                <!-- <label class="label">Select your school</label> -->
+
+                <br>
+                <select id="school" name="school" required>
+                    <i class="fa-solid fa-school"></i>
+                    <option value="">Select a school</option>
+                    <option value="holy-rosary-college">Holy Rosary College</option>
+                    <option value="university-secondary-school">University secondary school</option>
+                    <option value="spring-of-life">Spring of life</option>
+                </select>
+
+                <a href="./portal.html">
+                    <button class="btn2">Continue</button>
+                </a>
+            </form>
+            
+            <div class="education-animation">
+                <div class="cap">🎓</div>
+                <div class="floating-icon icon1">📝</div>
+                <div class="floating-icon icon2">✏️</div>
+                <div class="floating-icon icon3">🏫</div>
+                <div class="floating-icon icon4">📖</div>
+                <div class="floating-icon icon5">📚</div>
+            </div>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; Acada school management software</p>
+    </footer>
+
+    <script src="./J.S/index.js"></script>
+</body>
+</html>
